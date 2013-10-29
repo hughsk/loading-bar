@@ -1,0 +1,25 @@
+{
+  "name": "loading-bar",
+  "description": "A quick-and-dirty loading bar for use in your larger demos",
+  "version": "0.0.0",
+  "main": "index.js",
+  "browser": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {},
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://github.com/hughsk)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/loading-bar"
+  },
+  "bugs": {
+    "url": "https://github.com/hughsk/loading-bar/issues"
+  },
+  "keywords": [
+    "browserify",
+    "loading",
+    "pending",
+    "script"
+  ]
+}
