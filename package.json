@@ -1,7 +1,7 @@
 {
   "name": "loading-bar",
   "description": "A quick-and-dirty loading bar for use in your larger demos",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "browser": "index.js",
   "dependencies": {},
