@@ -16,7 +16,7 @@ function bar(fill, width, height, margin) {
   wrap.style.height = height + 'px'
   wrap.style.width = width + 'px'
   wrap.style.marginTop = (-height/2)+'px'
-  wrap.style.marginLeft = (-width/2)+'px'
+  wrap.style.marginLeft = (-width/2-margin)+'px'
 
   var inner = this.inner = document.createElement('div')
   inner.style.backgroundColor = fill
