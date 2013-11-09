@@ -1,7 +1,7 @@
 module.exports = bar
 
 function bar(fill, width, height, margin) {
-  if (!(this instanceof bar)) return new bar(fill)
+  if (!(this instanceof bar)) return new bar(fill, width, height, margin)
   fill = fill || '#FFF'
   width = this.width = +(parseFloat(width) || 500)
   height = this.height = +(parseFloat(height) || 30)
